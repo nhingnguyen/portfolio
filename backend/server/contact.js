@@ -49,7 +49,12 @@ router.post('/send-contact', async (req, res) => {
             This is an automated message. Please do not reply directly to this email.
           </p>
         </div>
-      `
+      `,
+      headers: {
+        'X-Priority': '1',
+        'X-MSMail-Priority': 'High',
+        'Importance': 'High'
+      }
     };
 
     await transporter.sendMail(ownerNotificationOptions);

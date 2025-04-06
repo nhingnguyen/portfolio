@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: 'https://portfolio-pi-roan-81.vercel.app/', 
+  origin: 'https://nhingnguyen.vercel.app', 
   methods: ['GET', 'POST', 'PUT', 'DELETE', "OPTIONS"], 
   allowedHeaders: ['Content-Type', 'Authorization'] 
 }));

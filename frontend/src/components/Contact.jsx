@@ -24,7 +24,7 @@ const Contact = () => {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch('http://localhost:3000/api/send-contact', {
+      const response = await fetch('https://portfolio-backend-nine-rho.vercel.app/api/send-contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

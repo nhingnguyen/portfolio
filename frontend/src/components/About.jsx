@@ -8,7 +8,7 @@ const About = () => {
   const skills = [
     'HTML', 'CSS', 'JavaScript', 'React', 'Git', 
     'Node.js', 'Express', 'MongoDB', 'Firebase', 'Python',
-    'C++', 'C', 'SQL', 'Figma'
+    'C++', 'C', 'SQL', 'Figma', 'Django'
   ];
 
   const education = [

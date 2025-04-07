@@ -159,6 +159,7 @@
     order: 4;
     width: 100%;
     margin-top: 0;
+    justify-content: center;
   }
   
   .header-nav-center a,
@@ -188,5 +189,8 @@
     width: 90%;
     padding: 0.6rem;
     font-size: 0.9rem;
+  }
+  .header-cv-container {
+    justify-content: center;
   }
 }

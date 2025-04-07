@@ -9,10 +9,9 @@
 .footer p {
   margin: 0;
   font-size: clamp(0.8rem, 1.5vw, 1rem);
-  color: #b8b8d8;
+  color: #e0e0ff;
   background: var(--gradient-text);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
   font-weight: 600;
 }

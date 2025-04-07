@@ -1,10 +1,15 @@
 #contact {
   background: #10101a;
+  min-height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0;
 }
 
 #contact h2 {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   font-size: clamp(1.8rem, 4vw, 2.5rem);
   background: linear-gradient(90deg, #667eea, #ff6b9a); 
   -webkit-background-clip: text;
@@ -13,10 +18,10 @@
 }
 
 .contact-form {
-  width: 90vw;
-  max-width: 600px;
+  width: 85vw;
+  max-width: 500px;
   margin: 0 auto;
-  padding: 2.5rem;
+  padding: 2rem;
   background: rgba(30, 30, 50, 0.3);
   backdrop-filter: blur(10px);
   border-radius: 16px;
@@ -27,7 +32,7 @@
 .contact-form textarea {
   width: 100%;
   padding: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   background: rgba(20, 20, 40, 0.5);
   border: 1px solid rgba(118, 75, 162, 0.3);
   border-radius: 8px;
@@ -38,7 +43,7 @@
 }
 
 .contact-form textarea {
-  min-height: 180px;
+  min-height: 120px;
   resize: vertical;
 }
 
@@ -64,8 +69,8 @@
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  margin-top: 3rem;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .social-links a {
@@ -73,7 +78,7 @@
   text-decoration: none;
   font-weight: 600;
   font-size: clamp(0.9rem, 1.5vw, 1.1rem);
-  padding: 0.8rem 1.5rem;
+  padding: 0.7rem 1.2rem;
   border-radius: 50px;
   background: rgba(255, 107, 154, 0.1);
   transition: all 0.4s ease;
@@ -84,19 +89,19 @@
   color: #a18af8;
   transform: translateY(-3px);
 }
+
 .submit-message {
-  margin: 1.5rem auto 0;
-  padding: 1.2rem;
+  margin: 1.2rem auto 0;
+  padding: 1rem;
   border-radius: 8px;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   width: 90%;
   max-width: 500px;
   animation: fadeIn 0.4s ease-out;
-  color: #e0e0ff
+  color: #e0e0ff;
 }
-
 
 @keyframes fadeIn {
   from { 

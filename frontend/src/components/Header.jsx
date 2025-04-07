@@ -30,7 +30,6 @@ const Header = () => {
         <nav className="header-nav-center">
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#projects" onClick={closeMenu}>Projects</a>
-          <a href="#experience" onClick={closeMenu}>Experience</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
         </nav>
         <div className="header-cv-container">

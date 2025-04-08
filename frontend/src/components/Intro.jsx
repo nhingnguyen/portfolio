@@ -71,7 +71,7 @@ const Intro = () => {
                 Contact Me
               </a>
               <a 
-                href="/assets/Ngoc-Lam-Nhi-Nguyen-CV.pdf"
+                href="../assets/Ngoc-Lam-Nhi-Nguyen-CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="intro-button cv-button"

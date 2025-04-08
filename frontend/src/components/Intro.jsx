@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Intro.css';
+import cvFile from '../assets/Ngoc-Lam-Nhi-Nguyen-CV.pdf';
 
 const Intro = () => {
   const [displayTitle, setDisplayTitle] = useState('');
@@ -71,7 +72,7 @@ const Intro = () => {
                 Contact Me
               </a>
               <a 
-                href="../assets/Ngoc-Lam-Nhi-Nguyen-CV.pdf"
+                href={cvFile}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="intro-button cv-button"

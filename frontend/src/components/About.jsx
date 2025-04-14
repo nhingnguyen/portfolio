@@ -8,7 +8,7 @@ const About = () => {
   const skills = [
     'HTML', 'CSS', 'JavaScript', 'React', 'Git', 
     'Node.js', 'Express', 'MongoDB', 'Firebase', 'Python',
-    'C++', 'C', 'SQL', 'Figma', 'Django'
+    'SQL', 'Figma'
   ];
 
   const education = [
@@ -27,10 +27,10 @@ const About = () => {
         </div>
         <div className="about-content">
           <h2 className="about-title">About Me</h2>
-          <p className="about-position">Software Developer</p>
+          <p className="about-position">Web Developer</p>
           <div className="about-description">
             <p>
-              I'm a dedicated student with a strong passion for software development 
+              I'm a dedicated student with a strong passion for web development 
               and modern web technologies. I enjoy building responsive, user-friendly interfaces 
               and continuously exploring new tools and frameworks to enhance the user experience.
             </p>

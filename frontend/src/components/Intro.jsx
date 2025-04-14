@@ -11,7 +11,7 @@ const Intro = () => {
 
   useEffect(() => {
     const title = "Hello, I'm Nhi";
-    const subtitle = "Software Developer";
+    const subtitle = "Web Developer";
     const description = "Hey there! I love building things for the web. Let's collaborate to create something amazing together!";
 
     let i = 0;

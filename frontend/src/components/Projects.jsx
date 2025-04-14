@@ -84,7 +84,10 @@ const Projects = () => {
             </div>
             <div>
               <h3>{project.title}</h3>
-              <p className="project-date">{project.date} • {project.role}</p>
+              <div className="project-meta">
+                <span className="project-date">{project.date}</span>
+                <span className="project-role">{project.role}</span>
+              </div>
               <p>{project.description}</p>
             </div>
             <div className="project-links">

@@ -45,7 +45,7 @@ const Projects = () => {
     {
       id: 4,
       title: 'GUI-Library Management',
-      description: 'A modern desktop application for library management built with Python and Tkinter, featuring SQLite database integration.',
+      description: 'A desktop application for library management built with Python and Tkinter, featuring SQLite database integration.',
       date: 'Jan 2024',
       links: [
         { type: 'github', url: 'https://github.com/nhingnguyen/Library-management' },

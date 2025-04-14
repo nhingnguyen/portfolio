@@ -9,19 +9,9 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'ViRoute',
-      description: 'ViRoute is a web app for easy bus bookings with real-time tracking. Users can book, pay, and track their rides, while operators manage routes and schedules on a single platform.',
-      links: [
-        { type: 'github', url: 'https://github.com/khoidm2004/ViRoute' },
-        { type: 'live', url: 'https://vi-route.vercel.app/' },
-        { type: 'youtube', url: 'https://youtu.be/Q_sEGSpoNRE?si=pSkYzuCCGKoKMnyL' }
-      ],
-      image: ViRouteImage
-    },
-    {
-      id: 2,
       title: 'Resort IoT Project',
       description: 'IoT solution for resort management with smart room controls and energy monitoring.',
+      date: 'Jan - Apr 2025',
       links: [
         { type: 'github', url: 'https://github.com/khoidm2004/Resort_IoT_Project' },
         { type: 'live', url: 'https://resort-iot-project.vercel.app/login' },
@@ -30,9 +20,22 @@ const Projects = () => {
       image: ResortImage
     },
     {
+      id: 2,
+      title: 'ViRoute',
+      description: 'ViRoute is a web app for easy bus bookings with real-time tracking. Users can book, pay, and track their rides, while operators manage routes and schedules on a single platform.',
+      date: 'Sep - Dec 2024',
+      links: [
+        { type: 'github', url: 'https://github.com/khoidm2004/ViRoute' },
+        { type: 'live', url: 'https://vi-route.vercel.app/' },
+        { type: 'youtube', url: 'https://youtu.be/Q_sEGSpoNRE?si=pSkYzuCCGKoKMnyL' }
+      ],
+      image: ViRouteImage
+    },
+    {
       id: 3,
       title: 'Diotp Humidity',
       description: 'This project demonstrates an IoT pipeline where an embedded device (Rasberry Pi Pico W) collects data and transmit it to a cloud platform.',
+      date: 'Dec 2024',
       links: [
         { type: 'github', url: 'https://github.com/nhingnguyen/diotp-humidity' },
         { type: 'youtube', url: 'https://youtu.be/4S8vpAUcOuk' },
@@ -43,6 +46,7 @@ const Projects = () => {
       id: 4,
       title: 'GUI-Library Management',
       description: 'A modern desktop application for library management built with Python and Tkinter, featuring SQLite database integration.',
+      date: 'Jan 2024',
       links: [
         { type: 'github', url: 'https://github.com/nhingnguyen/Library-management' },
         { type: 'youtube', url: 'https://youtu.be/Frrb9DUkTy8' },
@@ -74,8 +78,11 @@ const Projects = () => {
             <div className="project-image-container">
               <img src={project.image} alt={project.title} className="project-image" />
             </div>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
+            <div>
+              <h3>{project.title}</h3>
+              <p className="project-date">{project.date}</p>
+              <p>{project.description}</p>
+            </div>
             <div className="project-links">
               {project.links.map((link, index) => (
                 <a 

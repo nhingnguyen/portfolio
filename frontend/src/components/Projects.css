@@ -137,6 +137,13 @@
   color: #8a8ac0;
   margin-bottom: 0.8rem;
   font-style: italic;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-date::before {
+  content: "•";
+  margin: 0 0.3rem;
 }
 
 @media (max-width: 768px) {
